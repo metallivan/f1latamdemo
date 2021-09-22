@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+@font-face {
+    font-family: 'Formula1Font';
+    src: url('https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf')  format('truetype')
+  }
+  
+.f1-nav-container {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.f1-nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 30px;
+    height: 20px;
+}
+
+.f1-nav > ul > li{
+    list-style: none; 
+}
+.f1-nav > ul > li > a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Formula1Font', sans-serif;
+    font-weight: lighter;
+}
+
+.imgLogo {
+    position: relative;
+    display: inline-block;
+    margin-top: -170px;
+    z-index: 1;
+}
