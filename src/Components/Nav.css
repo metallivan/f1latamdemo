@@ -4,7 +4,7 @@
     font-family: 'Formula1Font';
     src: url('https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf')  format('truetype')
   }
-  
+
 .f1-nav-container {
     background-color: black;
     margin: 0;
@@ -16,8 +16,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin: 0;
-    padding: 30px;
     height: 20px;
+    padding: 30px;
 }
 
 .f1-nav > ul > li{
@@ -25,10 +25,22 @@
 }
 .f1-nav > ul > li > a{
     text-decoration: none;
+    padding: 30px;
     color: whitesmoke;
     font-family: 'Formula1Font', sans-serif;
     font-weight: lighter;
 }
+
+.f1-nav > ul > li> a:hover{
+    background-image: url('../Images/flag3.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 0.3s;
+    /* opacity: 0.3; */
+}
+
 
 .imgLogo {
     position: relative;
