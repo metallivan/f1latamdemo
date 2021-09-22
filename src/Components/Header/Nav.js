@@ -1,10 +1,10 @@
 import React from "react";
 import './Nav.css';
-import F1Logo from '../Images/f1-web.png'
+import F1Logo from '../../Images/f1-web.png'
 
 const Nav = () => {
     return(
-    <div className="f1-nav-container">
+    <section className="f1-nav-container">
         <nav className="f1-nav">
             <ul>
                 <li><a href="#"><span className="nav-item">Noticias</span></a></li>
@@ -16,7 +16,7 @@ const Nav = () => {
                 <li><a href="#"><span className="nav-item">Contacto</span></a></li>
             </ul>
         </nav>
-    </div>
+    </section>
     );
 };
 

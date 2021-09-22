@@ -8,7 +8,10 @@
 .f1-nav-container {
     background-color: black;
     margin: 0;
+    top: 0;
     padding: 0;
+    width: 100%;
+    position: fixed;
 }
 
 .f1-nav > ul{
@@ -32,7 +35,7 @@
 }
 
 .f1-nav > ul > li> a:hover{
-    background-image: url('../Images/flag3.jpg');
+    background-image: url('../../Images/flag3.jpg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

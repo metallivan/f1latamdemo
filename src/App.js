@@ -1,12 +1,14 @@
 import './App.css';
-import { Button } from './Components/Button';
-import { Nav } from './Components/Nav';
+import { Nav } from './Components/Header/Nav';
+import { Footer } from './Components/Footer/Footer';
+import { AboutUs } from './Components/AboutUs/AboutUs';
 
 function App() {
   return (
     <div className="App">
-      {/* <Button /> */}
       <Nav />
+      <AboutUs />
+      <Footer />
     </div>
   );
 }

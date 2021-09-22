@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Formula1Font';
+    src: url('https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf')  format('truetype')
+  }
+section {
+    font-family: 'Formula1Font', sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+.footer {
+    /* background: linear-gradient(0deg, rgba(110,25,25,1) 25%, rgba(40,21,21,1) 75%); */
+    background: linear-gradient(0deg, rgba(110,25,25,1) 0%, rgba(40,21,21,1) 100%);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.social-media > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    height: 60px;
+    padding: 10px;
+}
+
+.social-media > ul > li{    
+    list-style: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.social-media > ul > li > a{    
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* .social-media > ul > li > a:hover{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 0.3s;
+} */
+
+h4 {
+    margin-block: 10px;
+}
+
+hr {
+    width: 50%;
+    border-color: rgba(128, 128, 128, 0.25);
+}
+
+.img-icon {
+    width: 30px;
+    height: 30px;
+    margin-inline: 20px;
+    border-radius: 50%;
+    border: 2px solid salmon;
+}
