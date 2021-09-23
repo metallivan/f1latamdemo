@@ -35,6 +35,8 @@ const SocialMedia = () => {
             <ul>
                 { sm_items.map( item => <li key={item.name} ><img className="img-icon" src={item.image} alt={item.name} /><a href={item.url}>{item.name}</a></li> ) }
             </ul>
+            <hr />
+            <p className="copyright">Copyright &#169; Club F1 Latam 2021</p>
         </section>
     );
 };

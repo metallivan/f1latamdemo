@@ -1,3 +1,29 @@
 .about-us {
-    margin-block: 400px;
+    margin-block-start: 80px;
+    margin-block-end: 200px;
+    margin-inline: 15%;
+    height: auto;
+}
+
+.portait {
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    border-bottom: 8px solid brown;
+    object-fit: cover;
+}
+
+.about-title{
+    position: relative;
+    font-size: 40px;
+    text-align: left;
+    top: -60px;
+    margin: 0;
+}
+
+.about-text {
+    /* top: -40px; */
+    margin: 0;
+    text-align: justify;
+    /* margin-block: 10px; */
 }

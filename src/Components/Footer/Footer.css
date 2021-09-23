@@ -62,3 +62,7 @@ hr {
     border-radius: 50%;
     border: 2px solid salmon;
 }
+
+.copyright {
+    padding-block: 10px;
+}
