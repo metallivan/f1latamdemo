@@ -4,9 +4,9 @@ import { SocialMedia } from "./SocialMedia";
 
 const Footer = () => {
     return (
-        <section className="footer">
+        <footer className="footer">
             <SocialMedia />
-        </section>
+        </footer>
     );
 };
 
