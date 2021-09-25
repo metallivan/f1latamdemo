@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/f1latamdemo/static/css/main.1a79f63d.chunk.css",
-    "main.js": "/f1latamdemo/static/js/main.a98fb1a1.chunk.js",
-    "main.js.map": "/f1latamdemo/static/js/main.a98fb1a1.chunk.js.map",
+    "main.css": "/f1latamdemo/static/css/main.66084399.chunk.css",
+    "main.js": "/f1latamdemo/static/js/main.d14fc2a5.chunk.js",
+    "main.js.map": "/f1latamdemo/static/js/main.d14fc2a5.chunk.js.map",
     "runtime-main.js": "/f1latamdemo/static/js/runtime-main.7822977e.js",
     "runtime-main.js.map": "/f1latamdemo/static/js/runtime-main.7822977e.js.map",
     "static/js/2.3453cb81.chunk.js": "/f1latamdemo/static/js/2.3453cb81.chunk.js",
     "static/js/2.3453cb81.chunk.js.map": "/f1latamdemo/static/js/2.3453cb81.chunk.js.map",
     "index.html": "/f1latamdemo/index.html",
-    "static/css/main.1a79f63d.chunk.css.map": "/f1latamdemo/static/css/main.1a79f63d.chunk.css.map",
+    "static/css/main.66084399.chunk.css.map": "/f1latamdemo/static/css/main.66084399.chunk.css.map",
     "static/js/2.3453cb81.chunk.js.LICENSE.txt": "/f1latamdemo/static/js/2.3453cb81.chunk.js.LICENSE.txt",
     "static/media/Nav.css": "/f1latamdemo/static/media/flag3.083cb1d5.jpg",
     "static/media/tiktok.1fbbfc80.png": "/f1latamdemo/static/media/tiktok.1fbbfc80.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.7822977e.js",
     "static/js/2.3453cb81.chunk.js",
-    "static/css/main.1a79f63d.chunk.css",
-    "static/js/main.a98fb1a1.chunk.js"
+    "static/css/main.66084399.chunk.css",
+    "static/js/main.d14fc2a5.chunk.js"
   ]
 }
