@@ -1,0 +1,41 @@
+h1 {
+    font-size: 40px;
+    text-align: left;
+    margin: 0;
+}
+
+.news {
+    margin-block: 80px;
+    margin-inline: 15%;
+    height: auto;
+   
+}
+
+.news-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.news-block {
+    border-width: 1px;
+    border-style: solid;
+    background: linear-gradient(0deg, rgba(110,25,25,1) 0%, rgba(40,21,21,1) 100%);
+    margin-block: 20px;
+    margin-inline: 1.5rem;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 45%;
+}
+.news-block > h2 {
+    margin-inline: 10px;
+    text-align: left;
+}
+
+.news-block > p {
+    margin-inline: 10px;
+    text-align: justify;
+ }
+
+.news-img {
+    width: 100%;
+}
