@@ -12,8 +12,9 @@ h1 {
 }
 
 .news-container {
-    display: inline-flex;
-    flex-wrap: wrap;
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: auto auto;
 }
 
 .news-block {
@@ -24,14 +25,19 @@ h1 {
     margin-inline: 1.5rem;
     border-radius: 20px;
     overflow: hidden;
-    width: 45%;
+    /* width: 45%; */
 }
-.news-block > h2 {
+
+.news-block:nth-last-child(1):nth-child(odd){
+    grid-column: auto / span 2;
+}
+
+.news-info .news-info__title {
     margin-inline: 10px;
     text-align: left;
 }
 
-.news-block > p {
+.news-info .news-info__text {
     margin-inline: 10px;
     text-align: justify;
  }

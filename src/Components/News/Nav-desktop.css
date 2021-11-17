@@ -1,0 +1,53 @@
+.f1-nav-container {
+    background-color: black;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+}
+
+.f1-nav {
+    width: inherit;
+}
+
+.f1-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    height: 5.5rem;
+    padding: 1rem;
+}
+
+.f1-nav ul li{
+    list-style: none;
+}
+.f1-nav ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.f1-nav ul li a:hover{
+    background-image: url('../../Images/flag3.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: 0.3s;
+}
+
+.hamburger {
+    display: none;
+}
+
+p {
+    color: white;
+}
+
+
+.imgLogo {
+    position: relative;
+    margin-top: -8rem;
+    width: 12rem;
+}

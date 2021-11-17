@@ -49,11 +49,13 @@ section {
 
 h4 {
     margin-block: 10px;
+    text-align: center;
 }
 
 hr {
     width: 50%;
     border-color: rgba(128, 128, 128, 0.25);
+    margin: 0 auto;
 }
 
 .img-icon {
@@ -66,4 +68,5 @@ hr {
 
 .copyright {
     padding-block: 10px;
+    text-align: center;
 }

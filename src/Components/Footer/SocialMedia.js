@@ -3,6 +3,7 @@ import youtubeIcon from '../../Images/yt.png';
 import discordIcon from '../../Images/discord.png';
 import instagramIcon from '../../Images/instagram.jpg';
 import tiktokIcon from '../../Images/tiktok.png';
+import { BrowserRouter, Link } from "react-router-dom";
 
 const sm_items = [
     {
@@ -32,11 +33,21 @@ const SocialMedia = () => {
         <section className="social-media">
             <h4>Nuestras redes sociales</h4>
             <hr />
+            <BrowserRouter>
             <ul>
-                { sm_items.map( item => <li key={item.name} ><img className="img-icon" src={item.image} alt={item.name} /><a href={item.url}>{item.name}</a></li> ) }
+                { 
+                    sm_items.map( item => 
+                        <li key={item.name} >
+                            <img className="img-icon" src={item.image} alt={item.name} />
+                            <Link to={item.url}>{item.name}</Link>
+                        </li> 
+                    ) }
             </ul>
+            </BrowserRouter>
             <hr />
-            <p className="copyright">Copyright &#169; Club F1 Latam 2021</p>
+            <p className="copyright">
+                Copyright &#169; Paddockers 2021
+            </p>
         </section>
     );
 };

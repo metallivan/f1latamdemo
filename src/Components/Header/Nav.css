@@ -1,41 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
-@font-face {
-    font-family: 'Formula1Font';
-    src: url('https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf')  format('truetype')
-  }
-
 .f1-nav-container {
     background-color: black;
-    margin: 0;
-    top: 0;
-    padding: 0;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     z-index: 1;
 }
 
-.f1-nav > ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0;
-    height: 20px;
-    padding: 30px;
+.f1-nav {
+    width: inherit;
 }
 
-.f1-nav > ul > li{
-    list-style: none; 
+.f1-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    height: 60px;
+    padding: 16px;
 }
-.f1-nav > ul > li > a{
+
+.f1-nav ul li{
+    list-style: none;
+}
+.f1-nav ul li a{
+    font-size: 1rem;
     text-decoration: none;
-    padding: 30px;
     color: whitesmoke;
-    font-family: 'Formula1Font', sans-serif;
     font-weight: lighter;
 }
 
-.f1-nav > ul > li> a:hover{
+.f1-nav ul li a:hover{
     background-image: url('../../Images/flag3.jpg');
     background-position: center;
     background-size: contain;
@@ -44,19 +37,139 @@
     transition: 0.3s;
 }
 
+.menu-hamburger {
+    display: none;
+}
+
+
+p {
+    color: white;
+}
+
 
 .imgLogo {
     position: relative;
-    display: inline-block;
-    margin-top: -170px;
-    z-index: 1;
+    margin-top: -10px;
+    width: 160px;
 }
 
-/* .envolving-circle {
-    background-color: black;
-    border-radius: 100%;
-    width: 350px;
-    height: 350px;
-    top: -180px;
-    position: relative;
+/* .menu-links {
+    .f1-nav ul li a {
+        display: none;
+    }
+    display: inline;
 } */
+
+/* @media (max-width: 425px) {
+    
+    .imgLogo {
+        position: relative;
+    }
+} */
+
+
+
+@media (max-width: 768px) {
+
+    .f1-nav-container {
+        background-color: black;
+        width: 100vw;
+        position: fixed;
+        z-index: 1;
+    }
+    
+
+    .f1-nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        height: 60px;
+        padding: 10px;
+    }
+
+    .f1-nav ul li {
+        list-style: none;
+    }
+    
+    .f1-nav .menu-links  {
+        display: none;
+    }
+    
+    .hamburger .menu-btn {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+    }
+
+    .hamburger .menu-btn .menu-btn__burger {
+        width: 20px;
+        height: 1.5px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+        transition: all  .5s ease-in-out;
+    }
+
+    .menu-btn__burger::before,
+    .menu-btn__burger::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 1.5px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+        transition: all  .5s ease-in-out;
+    }
+
+    .menu-btn__burger::before {
+        transform: translateY(-7px);
+    }
+
+    .menu-btn__burger::after {
+        transform: translateY(7px);
+    }
+
+    .menu-btn.open .menu-btn__burger {
+        transform: translateX(-20px);
+        background: transparent;
+        box-shadow: none;
+    }
+    .menu-btn.open .menu-btn__burger::before {
+        transform: rotate(45deg) translate(14px, -14px);
+    }
+    
+    .menu-btn.open .menu-btn__burger::after {
+        transform: rotate(-45deg) translate(14px, 14px);
+    }
+    
+    .imgLogo {
+        position: relative;
+        width: 90px;
+
+    }
+    
+    .menu-hamburger.active {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-hamburger__item {
+        padding-block: 20px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .menu-hamburger__item a {
+        color: white;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+}

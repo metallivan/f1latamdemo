@@ -7,10 +7,14 @@ import { News } from './Components/News/News';
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <AboutUs />
-      <News />
-      <Footer />
+      
+        <Nav />
+        <div className="container">
+          <AboutUs />
+          <News />
+        </div>
+        <Footer />
+      
     </div>
   );
 }
