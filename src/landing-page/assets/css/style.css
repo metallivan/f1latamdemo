@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'SportsJersey';
+    src: url('../fonts/sportsjersey.ttf')  format('truetype')
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    font-family: "SportsJersey", sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 5rem;
+}
+
+body {
+    background: url('../images/paddockers_standby2.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.paddockers-main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    
+}
+
+.paddockers-main__logo img {
+    width: 700px;
+}
+
+.paddockers-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.sm-img {
+    width: 50px;
+    height: 50px;
+    margin-inline: 40px;
+    border-radius: 50%;
+    border: 2px solid salmon;
+    overflow: hidden;
+}
+
+.sm-img img {
+    width: 100%;
+}
+
+.sm-img:nth-child(1) {
+    background-color: red;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Paddockers</title>
+</head>
+
+<body>
+    <main>
+        <section class="paddockers-main">
+            <div class="paddockers-main__title">
+                <h1>PROXIMAMENTE</h1>
+            </div>
+            <div class="paddockers-main__logo">
+                <img src="./assets/images/paddockers.svg" alt="Paddockers Logo">
+            </div>
+        </section>
+    </main>
+
+    <audio autoplay loop id="myaudio">
+        <source src="./assets/audio/Paddockers_compressed.mp3">
+    </audio>
+
+    <footer>
+        <section class="paddockers-footer">
+            <div class="sm-img">
+                <img src="./assets/images/yt.png" alt="Youtube">
+            </div>
+            <div class="sm-img">
+                <img src="./assets/images/discord.png" alt="Discord">
+            </div>
+            <div class="sm-img">
+                <img src="./assets/images/instagram.jpg" alt="Instagram">
+            </div>
+            <div class="sm-img">
+                <img src="./assets/images/tiktok.png" alt="TikTok">
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        var audio = document.getElementById("myaudio");
+        
+        
+        window.onload = () => {
+           // audio.muted = true;
+            audio.play();
+            audio.volume = 0.25;
+        };
+        
+    </script>
+
+</body>
+
+</html>
